@@ -1,0 +1,109 @@
+name: percy.nikolaus
+description: radical
+version: 0.0.1
+author: qrim6roc.iqelogye@mtdr0seh.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-07-04 20:53:30'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: model desc
+    author: qrim6roc.iqelogye@mtdr0seh.com
+    files:
+    - model.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-07-04 20:53:32'
+  .prophecy/metadata/sqlmodels/newmodel:
+    name: newmodel
+    schema: null
+    description: desc model
+    author: qrim6roc.iqelogye@mtdr0seh.com
+    files:
+    - subpath/newmodel.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-07-04 20:53:32'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: qrim6roc.iqelogye@mtdr0seh.com
+    files:
+    - sources.yml
+    createdAt: '2025-07-04 20:53:32'
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed1:
+    name: seed1
+    schema: null
+    description: seed desc
+    author: qrim6roc.iqelogye@mtdr0seh.com
+    files:
+    - sources.yml
+    createdAt: '2025-07-04 20:53:32'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: source desc
+    author: qrim6roc.iqelogye@mtdr0seh.com
+    files:
+    - sources.yml
+    createdAt: '2025-07-04 20:53:32'
+    tables: []
+  .prophecy/metadata/sqlsources/multipleFileSource:
+    name: multipleFileSource
+    description: multipleFileSource desc
+    author: qrim6roc.iqelogye@mtdr0seh.com
+    files:
+    - sources1.yml
+    - mfs/src/multipleFileSource.yml
+    createdAt: '2025-07-04 20:53:32'
+    tables:
+    - name: table1
+      schema: null
+      description: descr 1
+      author: qrim6roc.iqelogye@mtdr0seh.com
+      createdAt: '2025-07-04 20:53:32'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: qrim6roc.iqelogye@mtdr0seh.com
+  createdAt: '2025-07-04 20:53:30'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
