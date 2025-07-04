@@ -41,10 +41,11 @@ sqlModels:
   .prophecy/metadata/sqlmodels/newmodel:
     name: newmodel
     schema: null
-    description: desc model
+    description: null
     author: qrim6roc.iqelogye@mtdr0seh.com
     files:
     - subpath/newmodel.sql
+    - newmodel.yml
     sqlDependencies:
       models: []
       datasets: []
@@ -63,6 +64,14 @@ sqlMacros:
     files:
     - sources.yml
     createdAt: '2025-07-04 20:53:32'
+  .prophecy/metadata/sqlmacros/macro2:
+    name: macro2
+    macroType: macro2
+    description: null
+    author: qrim6roc.iqelogye@mtdr0seh.com
+    files:
+    - sources.yml
+    createdAt: '2025-07-04 20:53:34'
 sqlSeeds:
   .prophecy/metadata/sqlseeds/seed1:
     name: seed1
@@ -72,22 +81,29 @@ sqlSeeds:
     files:
     - sources.yml
     createdAt: '2025-07-04 20:53:32'
+  .prophecy/metadata/sqlseeds/seed2:
+    name: seed2
+    schema: null
+    description: null
+    author: qrim6roc.iqelogye@mtdr0seh.com
+    files:
+    - seed2.sql
+    createdAt: '2025-07-04 20:53:34'
 sqlSources:
-  .prophecy/metadata/sqlsources/source:
-    name: source
-    description: source desc
+  .prophecy/metadata/sqlsources/source2:
+    name: source2
+    description: null
     author: qrim6roc.iqelogye@mtdr0seh.com
     files:
     - sources.yml
-    createdAt: '2025-07-04 20:53:32'
+    createdAt: '2025-07-04 20:53:34'
     tables: []
   .prophecy/metadata/sqlsources/multipleFileSource:
     name: multipleFileSource
-    description: multipleFileSource desc
+    description: null
     author: qrim6roc.iqelogye@mtdr0seh.com
     files:
     - sources1.yml
-    - mfs/src/multipleFileSource.yml
     createdAt: '2025-07-04 20:53:32'
     tables:
     - name: table1
